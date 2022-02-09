@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HanSeekBar">
+        <attr name="hsb_min" format="float|reference"/>
+        <attr name="hsb_max" format="float|reference"/>
+        <attr name="hsb_progress" format="float|reference"/>
+        <attr name="hsb_untrack_color" format="color|reference"/>
+        <attr name="hsb_track_color" format="color|reference"/>
+        <attr name="hsb_selection_count" format="integer|reference"/>
+        <attr name="hsb_selection_color" format="color|reference"/>
+        <attr name="hsb_selection_size" format="dimension|reference"/>
+        <attr name="hsb_bubble_size" format="dimension|reference"/>
+        <attr name="hsb_bubble_color" format="color|reference"/>
+        <attr name="hsb_bubble_duration" format="integer|reference"/>
+        <attr name="hsb_thumb_radius" format="dimension|reference"/>
+        <attr name="hsb_bar_height" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
