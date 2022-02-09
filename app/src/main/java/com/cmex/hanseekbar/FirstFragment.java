@@ -38,14 +38,14 @@ public class FirstFragment extends Fragment {
         });
 
         HanSeekBar seekbar = view.findViewById(R.id.seekbar);
-        float[] pos = {0, 0.1f, 0.3f, 0.5f, 1};
-        String[] titles = {"0", "10", "30", "50", "100"};
+        float[] pos = {0, 0.2f, 0.4f, 1};
+        String[] titles = {"0", "2", "4", "10"};
         seekbar.setSelections(pos, titles);
         seekbar.setIsCustomBubbleText();
         seekbar.setOnProgressUpdate(new HanSeekBar.ProgressCallback() {
             @Override
             public void onProgressChanged(float currentValue) {
-                seekbar.setBubbleText((int)currentValue + "X");
+                seekbar.setBubbleText((int)currentValue + "%");
             }
         });
     }

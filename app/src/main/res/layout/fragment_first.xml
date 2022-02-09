@@ -32,7 +32,7 @@
         app:hsb_track_color="@color/blue"
         app:hsb_bubble_size="12sp"
         app:hsb_bubble_color="@color/white"
-        app:hsb_bubble_duration="0"
+        app:hsb_bubble_duration="600"
         android:paddingHorizontal="10dp"
         />
 
